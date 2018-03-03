@@ -11,7 +11,7 @@
         "heroku"
       ],
     "scripts": {
-        "start": "./server.js"
+        "test": "./server.js"
     },
     "engines": {
         "node": "9.4.0",
