@@ -23,7 +23,6 @@ var db = monk('mongodb://test-user:test-password@ds231568.mlab.com:31568/testing
 var bears = db.get('bear');
 
   // Bear models lives here
-var Bear     = require('./app/models/bear');
 
 //===========================
 
