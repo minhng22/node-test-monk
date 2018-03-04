@@ -4,8 +4,7 @@
     "dependencies": {
         "express": "~4.0.0",
         "monk": "0.7.1",
-        "body-parser": "~1.0.1",
-        "mongodb": "3.0.3"
+        "body-parser": "~1.0.1"
     },
     "keywords": [
         "example",
