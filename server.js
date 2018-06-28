@@ -16,12 +16,14 @@ app.use(bodyParser.json());
 var port = process.env.PORT || 8080;        // set our port
 
 // Database
+var mongo = require('mongodb');
 var monk = require('monk');
 //var db = monk('localhost:27017/node-test');
 //var db = monk('mongodb://test-user:test-password@ds231568.mlab.com:31568/testing-db-minh');
-
-var url = process.env.MONGOLAB_URI;
-var db = monk(url);
+var testMONGOURI = 'mongodb://node:node@ds231568.mlab.com:31568/testing-db-minh';
+//var url = process.env.MONGOLAB_URI || testMONGOURI;
+//var url = testMONGOURI;
+var db = monk('mongodb://node:node@ds231568.mlab.com:31568/testing-db-minh');
 
 var bears = db.get('bear');
 

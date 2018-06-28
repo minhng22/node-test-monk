@@ -3,7 +3,8 @@
     "main": "server.js",
     "dependencies": {
         "express": "~4.0.0",
-        "monk": "0.7.1",
+        "monk": "~0.7.1",
+        "mongodb":"2.2.19",
         "body-parser": "~1.0.1"
     },
     "keywords": [
